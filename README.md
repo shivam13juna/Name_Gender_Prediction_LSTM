@@ -21,3 +21,6 @@ We're getting accuracy of around **80 to 85%**, not bad since we're not explicit
 >> python3 Martin_keras.py "Martin" "Martini"
 
 Basically add any number of names, adding space in between them.
+
+
+Also you need to extract weights inside tmp, they're in ZIP for compression. Extract them and put them in /tmp
