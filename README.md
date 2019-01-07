@@ -14,7 +14,10 @@ I'm also using callbacks in Keras model, Early_Stopping with patience 10, and Re
 
 ### Accuracy
 We're getting accuracy of around **80 to 85%**, not bad since we're not explicitly training on Czech names, still we get that, that's pretty good.
-<<<<<<< HEAD
 
-=======
->>>>>>> 1778cb01c3579e5d8756a2328bcc8df40dfb91c0
+
+### How to run this program
+
+>> python3 Martin_keras.py "Martin" "Martini"
+
+Basically add any number of names, adding space in between them.
