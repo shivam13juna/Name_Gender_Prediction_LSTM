@@ -305,6 +305,8 @@ with tf.Session() as sess:
 with tf.Session() as sess:
     if(tf.train.checkpoint_exists("tmp/model_tensorflow.ckpt")):
         saver.restore(sess, "tmp/model_tensorflow.ckpt")
+        print("Final mean is: ",np.mean(accc),'\n\n\n')
+
     names = sys.argv[1:]
     for i in names:
         
