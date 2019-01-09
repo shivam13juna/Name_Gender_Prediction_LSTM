@@ -1,4 +1,6 @@
-# This program is meant to classify gender given name.
+
+
+# This program is meant to classify gender given name. Also, this program is in PyTorch,TensorFlow and Keras. So kinda like tutorial to these frameworks. :)
 
 Program has been trained with Indian names, around 14k with almost equal gender diversity. The reason why indian names were chosen because not only they capture the latent structure differentiating a man's or a woman's name but also that they can be quite long. 
 
